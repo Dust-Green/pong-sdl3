@@ -25,3 +25,12 @@ D:\Pong2\x64\Debug\libpng16d.dll
 D:\Pong2\x64\Debug\brotlidec.dll
 D:\Pong2\x64\Debug\brotlicommon.dll
 D:\Pong2\Pong2\x64\Debug\Pong2.vcxproj.Up2Date
+C:\Users\grins\Documents\GitHub\pong-sdl3\x64\Debug\SDL3.dll
+C:\Users\grins\Documents\GitHub\pong-sdl3\x64\Debug\SDL3_ttf.dll
+C:\Users\grins\Documents\GitHub\pong-sdl3\x64\Debug\freetyped.dll
+C:\Users\grins\Documents\GitHub\pong-sdl3\x64\Debug\zlibd1.dll
+C:\Users\grins\Documents\GitHub\pong-sdl3\x64\Debug\bz2d.dll
+C:\Users\grins\Documents\GitHub\pong-sdl3\x64\Debug\libpng16d.dll
+C:\Users\grins\Documents\GitHub\pong-sdl3\x64\Debug\brotlidec.dll
+C:\Users\grins\Documents\GitHub\pong-sdl3\x64\Debug\brotlicommon.dll
+C:\Users\grins\Documents\GitHub\pong-sdl3\Pong2\x64\Debug\Pong2.vcxproj.Up2Date

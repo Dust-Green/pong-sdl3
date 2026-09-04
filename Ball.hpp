@@ -5,6 +5,21 @@
 
 const int kBallWidth = 15;
 const int kBallHeight = 15;
+const float kBallSpeed{ 0.5f };
+
+enum class CollisionType
+{
+	None,
+	Top,
+	Middle,
+	Bottom
+};
+
+struct Contact
+{
+	CollisionType type;
+	float penetration;
+};
 
 class Ball
 {
@@ -25,6 +40,23 @@ public:
 	void Update(float dt)
 	{
 		pos += velocity * dt;
+	}
+
+	void CollideWithPaddle(Contact const& contact)
+	{
+		// Make sure the ball clears the paddle so it doesn't get stuck.
+		pos.x += contact.penetration;
+		velocity.x = -velocity.x; //Here is where I would want to add some speed so that the ball gets harder to track.
+
+		if (contact.type == CollisionType::Top)
+		{
+			velocity.y = -.75f * kBallSpeed;
+		
+		}
+		else if ((contact.type == CollisionType::Bottom))
+		{
+			velocity.y = 0.75f * kBallSpeed;
+		}
 	}
 
 	//Apparently we would ideally want to keep the renderer out of Ball but for Pong we're gonna do it

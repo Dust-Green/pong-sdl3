@@ -1,4 +1,5 @@
 #include "Paddle.hpp"
+#include "Ball.hpp"
 #include <SDL3/SDL.h>
 
 Paddle::Paddle(Vector2 pos,Vector2 velocity) : pos(pos),velocity(velocity) {

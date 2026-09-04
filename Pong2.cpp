@@ -14,7 +14,7 @@
 const int kWindowHeight{ 720 };
 const int kWindowWidth{ 1280 };
 const float kPaddleSpeed{ 1.0f };
-const float kBallSpeed{ 0.5f };
+
 
 //making some enums
 enum Buttons
@@ -24,6 +24,8 @@ enum Buttons
 	PaddleTwoUp,
 	PaddleTwoDown,
 };
+
+
 
 //Preset colors
 const SDL_Color kSlateBlue{ 0x5B,0x7C,0x99,0xFF };
